@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        
+        <div class="mnote">
+            <div class="score">Score:<span id="num"> 0</span></div>
+            
+            <div class="moves">Moves:<span id="num1"> 0</span></div>
+            <div class="note">Memory game</div>
+        </div>
+        <table class="center">
+            <tr>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+            </tr>
+            <tr>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+            </tr>
+            <tr>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+                <td><div class="block"></div></td>
+            </tr>
+        </table>
+        <button class="reset" onclick="window.location.reload();">Restart</button>
+    </div>
+    
+</body>
+</html>

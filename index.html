@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaySimpleGames</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            font: 12px Montserrat, sans-serif;
+        }
+        .navbar{
+            background-color: #ee4a66;
+            opacity: 0.9;
+            
+        }
+        .navbar li a, .navbar .navbar-brand { 
+            color: #fff !important;
+        }
+        .navbar li a{
+            color:black !important;
+        }
+        .navbar-nav li a:hover {
+            color: #fff !important;
+        }
+        .navbar-nav li.active a {
+            color: #fff !important;
+            background-color: #29292c !important;
+        }
+        .mt-5{
+            margin-top: 70px;
+            text-align: center;
+        }
+        .logo{
+            height: 250px;
+            width: 250px;
+            background-size: cover;
+        }
+        #about p{
+            font-size: 17px;
+        }
+        
+    </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#myPage">PlaySimpleGames</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#myPage">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="mypage" class="container mt-5">
+        <h3><u>Available Games</u></h3>
+        <div class="row ">
+            <div class="col-sm-6">
+                <a href="tic_tac_toe/tic_tac_toe.html"><img class="logo" src="tictactoe.jpeg" alt="Tic Tac Toe"></a>
+                <h4>Tic Tac Toe</h4>
+            </div>
+            <div class="col-sm-6" >
+                <a href="memory_1/memory.html"><img class="logo" src="bgw.png" alt="memory game"></a>
+                <h4>Memory game</h4>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-6" >
+                <a href="lovecalc/index.html"><img class="logo" src="lovecalc.jpeg" alt="lovecalc"></a>
+                <h4>Love calculator</h4>
+            </div>
+            <div class="col-sm-6" >
+                <a href="lovecalc2/index.html"><img class="logo" src="flames.jpeg" alt="flames"></a>
+                <h4>Flames</h4>
+            </div>
+        </div>
+    </div>
+        
+    <div class="container text-center" id="about">
+        <h3><u>ABOUT</u></h3>
+        <p>Welcome to PlaySimpleGames , this is a simple website I made for fun. Currently there are four games available only .In the future, I may add more games and simple projects to this site.</p>
+    </div>
+
+   
+</body>
+</html>

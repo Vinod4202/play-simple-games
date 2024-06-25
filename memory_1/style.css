@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+}
+body{
+    background-color: #333;
+}
+.container{
+    align-items: center;
+    margin-top: 10px;
+
+    text-align: center;
+    
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    width: 170px;
+    height: 150px;
+    /* background-color:#e792bd; */
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("chars/bgw.png");
+}
+.mnote{
+    background-color:#b1dd5f;
+    margin: auto;
+    width: 715px;
+    height: 100px;
+    color: #333;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.note{
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    /* background-color: aqua; */
+}
+.score{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #139755;
+    font-size: 20px;
+    align-content: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 11px;
+    color: #fff;
+}
+.score #num{
+    background-color: #139755;
+}
+.moves{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color:tomato ;
+    font-size: 20px;
+    align-content: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 11px;
+    color: #fff;
+}
+
+.reset{
+    cursor: pointer;
+    width:150px;
+    height:30px;
+    font-size:20px;
+    border-radius: 8px;
+    background-color: #ffa600;
+    
+}
